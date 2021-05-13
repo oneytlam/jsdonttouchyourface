@@ -57,10 +57,10 @@
         }
         
     container2 = document.getElementById("label-2");
-            if (prediction[i].className == "Class 1" && prediction[i].probability > 0.5) {
-                container2.innerHTML = "keep your hand off your face";
-            } else {
-                container2.innerHTML = "you're safe";
-            }
+    if (prediction[i].className == "Class 1" && prediction[i].probability > 0.5) {
+        container2.innerHTML = "keep your hand off your face";
+    } else {
+        container2.innerHTML = "you're safe";
+    }
     }
 </script>
